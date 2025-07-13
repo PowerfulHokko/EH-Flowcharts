@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.4">
+  <diagram name="Pagina-1" id="xphZ0hv2kaPg6egR-n2x">
+    <mxGraphModel dx="1727" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-1" target="oGS9ZdVBToYL31bSVgCi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-1" value="NETWORK ENUMERATION" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-3" target="oGS9ZdVBToYL31bSVgCi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-3" target="oGS9ZdVBToYL31bSVgCi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-3" target="oGS9ZdVBToYL31bSVgCi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-3" target="oGS9ZdVBToYL31bSVgCi-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559.9999999999998" y="951.8823960248162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-3" target="oGS9ZdVBToYL31bSVgCi-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-3" value="Host discovery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-5" target="oGS9ZdVBToYL31bSVgCi-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="180" />
+              <mxPoint x="895" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-5" value="ICMP PING ipv4" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-6" value="ICMP PING ipv6" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-10" value="&lt;div&gt;kali$ fping -aq&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-12" value="&lt;div&gt;kali$ fping6 -aq&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-6" target="oGS9ZdVBToYL31bSVgCi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-14" target="oGS9ZdVBToYL31bSVgCi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-14" value="UDP" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-16" value="&lt;div&gt;nmap -sU -p 33434 --max-retries 1 --min-rate 10 &amp;lt;target&amp;gt;/24&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="700" y="600" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-18" value="&lt;div&gt;nmap -Pn -n \&lt;/div&gt;&lt;div&gt;&amp;nbsp; -T2 \&lt;/div&gt;&lt;div&gt;&amp;nbsp; --randomize-hosts \&lt;/div&gt;&lt;div&gt;&amp;nbsp; --top-ports 20 \&lt;/div&gt;&lt;div&gt;&amp;nbsp; -p 80,445,53,135,139,3389,22 \&lt;/div&gt;&lt;div&gt;&amp;nbsp; --script &quot;dns-service-discovery,smb-os-discovery,http-headers&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; --script-args=&quot;http.useragent=&#39;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36&#39;&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; --max-retries 2 \&lt;/div&gt;&lt;div&gt;&amp;nbsp; --host-timeout 60s \&lt;/div&gt;&lt;div&gt;&amp;nbsp; --scan-delay 2s --max-scan-delay 10s \&lt;/div&gt;&lt;div&gt;&amp;nbsp; -iL targets.txt -oA stealth_scan&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="700" y="820" width="390" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-20" target="oGS9ZdVBToYL31bSVgCi-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="800" />
+              <mxPoint x="895" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-20" target="oGS9ZdVBToYL31bSVgCi-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="800" />
+              <mxPoint x="670" y="800" />
+              <mxPoint x="670" y="1020" />
+              <mxPoint x="895" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-20" value="Low and slow" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-22" value="&lt;div&gt;Check custom scripts&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1040" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-24" value="Making assumptions" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-26" value="&lt;div&gt;Windows env? assume smb is there on hosts&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1190" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oGS9ZdVBToYL31bSVgCi-27" target="oGS9ZdVBToYL31bSVgCi-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-27" value="&lt;h4 data-end=&quot;334&quot; data-start=&quot;286&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;▶️ &lt;span data-end=&quot;334&quot; data-start=&quot;294&quot;&gt;LLDP (Link Layer Discovery Protocol)&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;&lt;p data-end=&quot;395&quot; data-start=&quot;335&quot;&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1230" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-28" value="&lt;h4 data-end=&quot;334&quot; data-start=&quot;286&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Get-NetNeighbor -AddressFamily IPv4 | Where-Object { $_.LinkLayerAddress -ne $null }&lt;/span&gt;&lt;/h4&gt;&lt;p data-end=&quot;395&quot; data-start=&quot;335&quot;&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1270" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGS9ZdVBToYL31bSVgCi-29" value="&lt;h4 data-end=&quot;334&quot; data-start=&quot;286&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Wireshark with LLDP filter (ethertype == 0x88cc) to sniff LLDP packets&lt;/span&gt;&lt;/h4&gt;&lt;p data-end=&quot;395&quot; data-start=&quot;335&quot;&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1230" width="390" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
