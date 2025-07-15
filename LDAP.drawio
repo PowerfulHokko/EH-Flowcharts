@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.4">
+  <diagram name="Pagina-1" id="v0Rx8pevB1FOpkKedlmu">
+    <mxGraphModel dx="1727" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DuOnDS9Y9txVcdsdHEVX-1" target="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-1" value="LDAP" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-4" value="&lt;div style=&quot;text-align: left;&quot;&gt;Once we have a foothold in an AD environment, we should start by gathering several key pieces of information, including but not limited to:&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- The domain functional level&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- The domain password policy&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- A full inventory of AD users&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- A full inventory of AD computers&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- A full inventory of AD groups and memberships&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Domain trust relationships&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Object ACLs&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Group Policy Objects (GPO) information&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Remote access rights&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="260" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DuOnDS9Y9txVcdsdHEVX-7" target="DuOnDS9Y9txVcdsdHEVX-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DuOnDS9Y9txVcdsdHEVX-7" target="DuOnDS9Y9txVcdsdHEVX-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="600" />
+              <mxPoint x="760" y="600" />
+              <mxPoint x="760" y="720" />
+              <mxPoint x="850" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-7" value="&lt;b&gt;Rights and Privileges in AD&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="190" width="1160" height="360" as="geometry">
+            <mxRectangle x="790" y="150" width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-8" value="&lt;b&gt;Default Administrators&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Domain Admins and Enterprise Admins &quot;super&quot; groups.&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry y="30" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-9" value="&lt;b&gt;Server Operators&lt;/b&gt;:&amp;nbsp;Members can modify services, access SMB shares, and backup files." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry y="60" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-10" value="&lt;div&gt;&lt;b&gt;Backup Operators&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Members are allowed to log onto DCs locally and should be considered Domain Admins. They can make shadow copies of the SAM/NTDS database, read the registry remotely, and access the file system on the DC via SMB. This group is sometimes added to the local Backup Operators group on non-DCs.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry y="90" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-13" value="&lt;div&gt;&lt;b&gt;Print Operators&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Members are allowed to logon to DCs locally and &quot;trick&quot; Windows into loading a malicious driver.&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry y="120" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-14" value="&lt;div&gt;&lt;b&gt;Hyper-V Administrators&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;If there are virtual DCs, any virtualization admins, such as members of Hyper-V Administrators, should be considered Domain Admins.&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry y="150" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-15" value="&lt;div&gt;&lt;b&gt;Account Operators&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Members can modify non-protected accounts and groups in the domain.&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry y="180" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-16" value="&lt;div&gt;&lt;b&gt;Remote Desktop Users&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Members are not given any useful permissions by default but are often granted additional rights such as Allow Login Through Remote Desktop Services and can move laterally using the RDP protocol.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry y="210" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-17" value="&lt;div&gt;&lt;b&gt;Remote Management Users&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Members are allowed to logon to DCs with PSRemoting (This group is sometimes added to the local remote management group on non-DCs).&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry y="240" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-18" value="&lt;div&gt;&lt;b&gt;Group Policy Creator Owners&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Members can create new GPOs but would need to be delegated additional permissions to link GPOs to a container such as a domain or OU.&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry y="270" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-19" value="&lt;div&gt;&lt;b&gt;Schema Admins&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Members can modify the Active Directory schema structure and can backdoor any to-be-created Group/GPO by adding a compromised account to the default object ACL.&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry y="300" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-20" value="&lt;div&gt;&lt;b&gt;DNS Admins&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Members have the ability to load a DLL on a DC but do not have the necessary permissions to restart the DNS server. They can load a malicious DLL and wait for a reboot as a persistence mechanism. Loading a DLL will often result in the service crashing. A more reliable way to exploit this group is to create a WPAD record.&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DuOnDS9Y9txVcdsdHEVX-7">
+          <mxGeometry y="330" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DuOnDS9Y9txVcdsdHEVX-21" target="DuOnDS9Y9txVcdsdHEVX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-21" value="See members of group" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-23" value="&lt;div&gt;PS C:\&amp;gt; Get-ADGroup -Identity &amp;lt;group&amp;gt; -Properties *&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="650" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DuOnDS9Y9txVcdsdHEVX-25" target="DuOnDS9Y9txVcdsdHEVX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-25" value="See own privilges" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-27" value="&lt;div&gt;PS C:\&amp;gt; whoami /priv&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="760" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-29" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;PowerShell - Available RSAT Tools&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="530" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-30" value="&lt;div&gt;PS C:\&amp;gt;&amp;nbsp; Get-WindowsCapability -Name RSAT* -Online | Select-Object -Property Name, State&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="570" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-31" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;To install:&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="610" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-32" value="&lt;div&gt;PS C:\htb&amp;gt; Get-WindowsCapability -Name RSAT* -Online | Add-WindowsCapability –Online&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="650" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-33" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;CMD - Runas User&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="720" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DuOnDS9Y9txVcdsdHEVX-34" value="&lt;div&gt;C:\htb&amp;gt; runas /netonly /user:&amp;lt;fqdn&amp;gt;\&amp;lt;user&amp;gt; powershell&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="760" width="390" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
